@@ -35,6 +35,9 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  padding: 0;
+  margin: 0;
+  border: none;
 }
 
 ul,
@@ -50,4 +53,19 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
+}
+
+img {
+  display: block;
+  inline-size: 100%;
+  block-size: 100%;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:focus,
+button:focus-visible {
+  outline: none;
 }

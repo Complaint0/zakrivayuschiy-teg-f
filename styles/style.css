@@ -345,7 +345,7 @@
   inline-size: 21px;
   block-size: 21px;
   color:var(--btn-text-color);
-  mix-blend-mode: difference; 
+  mix-blend-mode: difference;
 }
 
 .save-to-disk-dialog[open] {

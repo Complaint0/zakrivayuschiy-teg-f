@@ -13,30 +13,92 @@
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
 
+.like-icon.is-liked .heart {
+	animation: heartLikeScale .3s .1s ease-in alternate;
+}
+  
+.like-icon.is-liked .sparks {
+	animation: heartLikeSparks .3s .3s ease-in alternate;
+}
+
+.theme-menu__button {
+	transition: opacity 0.3s;
+	transition: transform 0.3s;
+}
+
+.theme-menu__button::after {
+	transition: transform 0.3s;
+}
+
+.box-button {
+	transition: box-shadow 0.3s;
+}
+
+.box-button::before {
+	transition: transform 0.5s ease-in-out;
+}
+
+.core {
+	transition: fill .3s 0.03s linear;
+}
+
+.main-body {
+	transition: fill .3s linear;
+}
+
+.contour {
+	transition: fill .1s linear;
+}
+
+.card__icon-button {
+	transition: border-color 0.3s;
+}
+
+.card__icon-button:hover .core {
+	transition: fill .3s linear;
+}
+
+.card__icon-button:hover .main-body {
+	transition: fill .3s 0.05s linear;
+}
+
+.card__icon-button:active .core,
+.like-icon.is-liked .core {
+  transition: fill .3s 0.05s linear;
+}
+
+.card__icon-button:active .main-body,
+.like-icon.is-liked .main-body {
+  transition: fill .3s 0.05s linear;
+}
+
+.like-icon.is-liked .contour  {
+  transition: fill .3s 0.06s linear;
+}
 
 @keyframes arrow {
-    from {
-        inset-inline-start: -22px;
-    }
-    to {
-        inset-inline-start: -18px;
-    }
+	from {
+		inset-inline-start: -22px;
+	}
+	to {
+		inset-inline-start: -18px;
+	}
 }
 
 @keyframes heartLikeScale {
-    from {
-        scale: 1;
-    }
-    to {
-        scale: 1.5;
-    }
+	from {
+		scale: 1;
+	}
+	to {
+		scale: 1.5;
+	}
 }
 
 @keyframes heartLikeSparks {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }

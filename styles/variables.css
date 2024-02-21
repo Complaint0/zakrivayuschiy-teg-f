@@ -2,7 +2,7 @@
 :root {
     --main-font: Inter-Variable;
     --accent-font: PressStart;
-    --title-weigh: 785;
+    --title-weight: 785;
     --text-weight: 465;
     --font-color: #00CC14;
     --bg-image-repeat-grad-color: #000;
@@ -13,7 +13,6 @@
     --item-inline-size: clamp(23.438rem, 30.141vw + 16.373rem, 43.5rem);
     --btn-text-color: #00CC14;
     --heart-contour-color: #00CC14;
-    --heart-main-body-color: #000;
     --heart-active-color: #FF0000;
     --border-image-text-color: rgba(0, 0, 0, 0.5);
 }

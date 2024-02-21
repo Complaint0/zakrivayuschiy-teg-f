@@ -22,8 +22,7 @@
 }
 
 .theme-menu__button {
-	transition: opacity 0.3s;
-	transition: transform 0.3s;
+	transition: opacity 0.3s, transform 0.3s;
 }
 
 .theme-menu__button::after {
@@ -72,7 +71,7 @@
   transition: fill .3s 0.05s linear;
 }
 
-.like-icon.is-liked .contour  {
+.like-icon.is-liked .contour {
   transition: fill .3s 0.06s linear;
 }
 

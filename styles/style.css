@@ -50,7 +50,7 @@
 .header__text {
   font-family: var(--accent-font), fantasy, sans-serif;
   color: var(--font-color);
-  font-variation-settings: 'wght' 400;
+  font-weight: 400;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,7 +63,7 @@
 .header__logo {
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 65px;
-  font-variation-settings: 'wght' 400;
+  font-weight: 400;
 }
 
 .header__title {
@@ -169,7 +169,7 @@
 .image-logo {
   position: absolute;
   font-family: var(--accent-font), fantasy, sans-serif;
-  font-variation-settings: 'wght' 400;
+  font-weight: 400;
   inset-inline-end: calc(100% / 28);
   inset-block-start: 25px;
   z-index: 2;
@@ -206,7 +206,7 @@
 
 .card__btns {
   display: flex;
-  gap: 12px;
+  gap: 4.5px;
   justify-content: flex-end;
   margin-top: 25px;
   align-items: center;
@@ -228,7 +228,7 @@
 }
 
 .box-button .button__text {
-  font-variation-settings: 'wght' 400;
+  font-weight: 400;
 }
 
 .box-button:focus-visible {
@@ -337,7 +337,6 @@
   mix-blend-mode: difference;
 }
 
-
 .save-to-disk-dialog[open] {
   display: flex;
   flex-direction: column;
@@ -365,7 +364,7 @@
   text-transform: uppercase;
   font-size: 14px;
   font-family: var(--accent-font), fantasy, sans-serif;
-  font-variation-settings: 'wght' var(--text-weight);
+  font-weight: var(--text-weight);
   line-height: 21px;
   max-inline-size: 234px;
 }
@@ -407,7 +406,7 @@
 }
 
 .dialog__header svg {
-  inline-size: 39px;
+  inline-size: 100px;
   block-size: 39px;
 }
 
@@ -431,4 +430,5 @@
   .save-to-disk-dialog[open] {
     padding-inline: 42px;
   }
+  
 }

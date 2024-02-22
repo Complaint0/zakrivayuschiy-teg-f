@@ -8,7 +8,7 @@
 :root.theme-dark {
     --main-font: Inter-Variable;
     --accent-font: PressStart;
-    -title-weigh: 785;
+    --title-weigh: 785;
     --text-weight: 465;
     --popover-weight: 400;
     --font-color: #00CC14;
@@ -41,7 +41,7 @@
 
 
 @media screen and (prefers-color-scheme: light) {
-    :root.theme-light {
+    :root {
         --main-font: Inter-Variable;
         --accent-font: PressStart;
         --title-weigh: 700;

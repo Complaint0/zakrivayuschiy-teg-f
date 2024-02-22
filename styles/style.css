@@ -91,6 +91,7 @@
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
+	transition: opacity 0.3s, transform 0.3s;
 }
 
 .theme-menu__button::after {
@@ -103,6 +104,7 @@
   background: var(--font-color);
   transform: scale(0);
   transform-origin: left;
+	transition: transform 0.3s;
 }
 
 .theme-menu__button:hover {
@@ -225,6 +227,7 @@
   border: 2px solid currentColor;
   background-color: var(--bg-content-color);
   position: relative;
+	transition: box-shadow 0.3s;
 }
 
 .box-button .button__text {
@@ -244,6 +247,7 @@
   transform: scaleX(0);
   transform-origin:left;
   z-index: 1;
+  transition: transform 0.5s ease-in-out;
 }
 
 .box-button:hover::before {
@@ -274,6 +278,7 @@
   align-items: center;
   justify-content: center;
   border: 2px solid transparent;
+	transition: border-color 0.3s;
 } 
 
 .card__icon-button:focus-visible {

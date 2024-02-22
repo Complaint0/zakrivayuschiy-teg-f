@@ -21,19 +21,6 @@
 	animation: heartLikeSparks .3s .3s ease-in alternate;
 }
 
-.theme-menu__button {
-}
-
-.theme-menu__button::after {
-}
-
-.box-button {
-}
-
-.box-button::before {
-	
-}
-
 .core {
 	transition: fill .3s 0.03s linear;
 }
@@ -46,8 +33,6 @@
 	transition: fill .1s linear;
 }
 
-.card__icon-button {
-}
 
 .card__icon-button:hover .core {
 	transition: fill .3s linear;
